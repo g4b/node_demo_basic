@@ -1,7 +1,6 @@
 <html>
 
 <head>
-
   <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -15,7 +14,10 @@ Your cats:
 
 <% for(var i = 0; i<cats.length;i++) { %>
   <tr>
-    <td><%= cats[i].name %></td>
+    <td>Name: <%= cats[i].name %></td>
+    <td>Breed: <%= cats[i].breed %></td>
+    <td>Image: <img src= <%= cats[i].image %> width='200' height='200'/></td>
+    <td>Age: <%= cats[i].age%></td>
   </tr>
 <% } %>
 
