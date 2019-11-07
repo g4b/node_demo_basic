@@ -1,10 +1,10 @@
-var express    = require('express')
+var express = require('express')
 var bodyParser = require('body-parser')
 var mongoose = require('mongoose');
 var app = express()
 
 // Add Connect String Here
-mongoose.connect('mongodb+srv://malbinson:malbinson1@cluster0-cvp0r.mongodb.net/test?retryWrites=true&w=majority');
+// some text
 
 //set up vars
 app.set('view engine','ejs');
